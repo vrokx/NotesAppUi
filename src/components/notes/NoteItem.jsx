@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import useNoteStore from '../../context/noteStore';
-import MyButton from '../ui/Button';
-import MyInput from '../ui/Input';
-import Modal from '../ui/Modal';
+import MyButton from '../ui/button';
+import MyInput from '../ui/input';
+import Modal from '../ui/modal';
 import { handleApiError } from '../../utils/errorHandler';
 import { validateNote } from '../../utils/validation';
 import { toast } from 'sonner';

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import MyInput from '../ui/Input';
-import MyButton from '../ui/Button';
+import MyInput from '../ui/input';
+import MyButton from '../ui/button';
 import { toast } from 'sonner';
 import API from '../../services/api';
 import { handleApiError } from '../../utils/errorHandler';
